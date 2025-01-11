@@ -195,6 +195,8 @@ This package also contains extensive tests for verifying the integrity of the ca
 ---
 ## Development
 
+Install [uv](https://docs.astral.sh/uv/getting-started/installation/)
+
 Create uv virtual environment
 
 ```shell
