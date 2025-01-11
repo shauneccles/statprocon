@@ -1,10 +1,8 @@
 from decimal import Decimal
-
-from packaging.markers import Marker
+import sys
 from typing import Union, Sequence
 
-py310 = Marker('python_version >= "3.10"')
-if py310.evaluate():
+if sys.version_info >= (3, 10):
     from typing import TypeAlias
 else:
     from typing_extensions import TypeAlias
