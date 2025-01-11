@@ -20,6 +20,12 @@ keywords = ["Statistical Process Control", "SPC", "Quality Control Chart", "QCC"
 "Bug Tracker" = "https://github.com/mattmccormick/statprocon/issues"
 "Changelog" = "https://github.com/mattmccormick/statprocon/blob/main/CHANGELOG.md"
 
+[project.optional-dependencies]
+plot = [
+    "matplotlib>=3.9.0",
+    "pandas>=2.0.0",
+]
+
 [dependency-groups]
 dev = [
     "mypy>=1.14.1",

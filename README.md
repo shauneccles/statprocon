@@ -13,6 +13,10 @@ SPC Charts help answer questions like:
 ```shell
 pip install statprocon
 ```
+To install with the ability to draw plots, install with the plot extras:
+```shell
+pip install statprocon[plot]
+```
 
 ## Usage
 
@@ -62,7 +66,7 @@ labels = ['0', '1', '2', '3']
 pd.DataFrame(xmr.x_to_dict(), index=labels).astype(float).plot()
 ```
 
-Or use built-in methods to generate charts that highlight detection points:
+Or use built-in methods to generate charts that highlight detection points - you must have installed statprocon with the plot extra:
 
 ```python
 import pandas as pd
