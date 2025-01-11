@@ -3,3 +3,6 @@ dist/
 venv/
 .ipynb_checkpoints
 *.ipynb
+.venv
+__pycache__/
+.mypy_cache/
