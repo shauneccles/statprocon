@@ -1,4 +1,4 @@
 from decimal import Decimal
 
-INVALID = Decimal('NaN')
+INVALID = Decimal("NaN")
 ROUNDING = 3
